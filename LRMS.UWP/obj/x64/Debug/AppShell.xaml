@@ -1,0 +1,43 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LRMS.UWP.AppShell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LRMS.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+                              
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource RegionBrush}">
+        <NavigationView x:ConnectionId='2'
+            x:Name="NavView"
+            PaneDisplayMode="auto"
+            OpenPaneLength="160"
+            AlwaysShowHeader="True"
+            IsSettingsVisible="True"
+                                     
+                                   
+                                             
+                                                 
+            >
+            <!-- In OnNavigatingToPage, we synchronize the selected item in the NavigationView with the current page. -->
+            <Frame x:ConnectionId='3'
+                x:Name="ContentFrame"
+                Margin="20,0,0,0">
+                <!--Navigating="OnNavigatingToPage">-->
+                <Frame.ContentTransitions>
+                    <TransitionCollection>
+                        <NavigationThemeTransition>
+                            <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                <EntranceNavigationTransitionInfo />
+                            </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                        </NavigationThemeTransition>
+                    </TransitionCollection>
+                </Frame.ContentTransitions>
+            </Frame>
+
+        </NavigationView>
+    </Grid>
+</Page>
+
