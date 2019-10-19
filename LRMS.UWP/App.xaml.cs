@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LRMS.DataAccessLib;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -33,6 +34,8 @@ namespace LRMS.UWP
             Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            DataAccess.InitializeDatabase();
         }
 
         /// <summary>

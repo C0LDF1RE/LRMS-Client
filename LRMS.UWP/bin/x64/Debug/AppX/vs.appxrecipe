@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>10FC1C1A57054BAB0D5FB0616D6F48A8F90D05F16C62C9A26093E7F5B21907CC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>736F604F2094497C92207AA4D8C633070FB5FB3826FAD5FEF5CE95E7242A1EFB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c6403083-479f-49be-9f1b-e6d65abb2217_1.0.0.0_x64__62210e8c6w9x6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c6403083-479f-49be-9f1b-e6d65abb2217_62210e8c6w9x6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c6403083-479f-49be-9f1b-e6d65abb2217</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-09T13:08:45.877</Modified>
+      <Modified>2019-10-19T15:56:11.052</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\LRMS.UWP.exe">
       <PackagePath>entrypoint\LRMS.UWP.exe</PackagePath>
-      <Modified>2019-10-09T13:08:43.067</Modified>
+      <Modified>2019-10-19T15:56:09.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -57,6 +57,14 @@
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.applicationinsights.windowsapps\1.1.1\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
       <Modified>2015-12-10T08:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2019-09-12T18:27:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.data.sqlite.core\2.0.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2017-07-24T16:48:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
@@ -102,6 +110,34 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T06:01:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.8\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2017-08-03T06:50:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.8\lib\uap10.0\SQLitePCLRaw.batteries_winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.batteries_winsqlite3.dll</PackagePath>
+      <Modified>2017-08-03T06:50:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.core\1.1.8\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2017-08-03T06:50:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.provider.winsqlite3.uwp10\1.1.8\lib\uap10.0\SQLitePCLRaw.provider.winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
+      <Modified>2017-08-03T06:50:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2019-09-12T18:28:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.text.encodings.web\4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2019-09-12T18:28:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.text.json\4.6.0\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2019-09-12T18:28:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7\lib\uap10.0\Telerik.Core.dll">
       <PackagePath>Telerik.Core.dll</PackagePath>
       <Modified>2019-09-24T15:37:10.000</Modified>
@@ -141,6 +177,10 @@
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2017-06-25T19:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\bin\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.dll">
+      <PackagePath>LRMS.UWP.DataAccessLib.dll</PackagePath>
+      <Modified>2019-10-19T15:44:55.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7\build\uap10.0\..\..\lib\uap10.0\x64\Telerik.UI.Xaml.Map.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
@@ -438,47 +478,47 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.780</Modified>
+      <Modified>2019-10-17T15:22:59.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\AppShell.xbf">
       <PackagePath>AppShell.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.780</Modified>
+      <Modified>2019-10-17T15:22:59.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\ExtendedSplash.xbf">
       <PackagePath>ExtendedSplash.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.781</Modified>
+      <Modified>2019-10-17T15:22:59.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.781</Modified>
+      <Modified>2019-10-17T15:22:59.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\AccountPage.xbf">
       <PackagePath>Views\AccountPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.781</Modified>
+      <Modified>2019-10-17T15:22:59.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\AnalysisPage.xbf">
       <PackagePath>Views\AnalysisPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.781</Modified>
+      <Modified>2019-10-17T15:22:59.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\MonitorPage.xbf">
       <PackagePath>Views\MonitorPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.782</Modified>
+      <Modified>2019-10-17T15:22:59.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\ProfilePage.xbf">
       <PackagePath>Views\ProfilePage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.782</Modified>
+      <Modified>2019-10-17T15:22:59.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.782</Modified>
+      <Modified>2019-10-17T15:22:59.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\WelcomePage.xbf">
       <PackagePath>Views\WelcomePage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.783</Modified>
+      <Modified>2019-10-17T15:22:59.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Views\WorkPanePage.xbf">
       <PackagePath>Views\WorkPanePage.xbf</PackagePath>
-      <Modified>2019-10-09T13:08:42.783</Modified>
+      <Modified>2019-10-17T15:22:59.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -758,11 +798,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-09T13:08:43.887</Modified>
+      <Modified>2019-10-19T15:45:43.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Core\LRMS.UWP.exe">
       <PackagePath>LRMS.UWP.exe</PackagePath>
-      <Modified>2019-10-09T13:08:45.857</Modified>
+      <Modified>2019-10-19T15:56:11.048</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

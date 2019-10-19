@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LRMS.UWP.Infrastructure;
+using System;
 using System.Diagnostics;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -105,6 +106,8 @@ namespace LRMS.UWP
 
         void DismissSplashButton_Click(object sender, RoutedEventArgs e)
         {
+            Request request = new Request();
+            //await request.Post("http://new.jkzy.10010.com/appserver/api/v1/dataRetention/requestSessionId", "");
             DismissExtendedSplash();
         }
     }

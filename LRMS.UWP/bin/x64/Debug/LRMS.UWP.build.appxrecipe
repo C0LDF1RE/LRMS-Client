@@ -43,6 +43,12 @@
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.applicationinsights.windowsapps\1.1.1\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.data.sqlite.core\2.0.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
@@ -76,6 +82,27 @@
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.8\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.8\lib\uap10.0\SQLitePCLRaw.batteries_winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.batteries_winsqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.core\1.1.8\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\sqlitepclraw.provider.winsqlite3.uwp10\1.1.8\lib\uap10.0\SQLitePCLRaw.provider.winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.text.encodings.web\4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\system.text.json\4.6.0\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7\lib\uap10.0\Telerik.Core.dll">
       <PackagePath>Telerik.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -105,6 +132,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\bin\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.dll">
+      <PackagePath>LRMS.UWP.DataAccessLib.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\COLDFIRE\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7\build\uap10.0\..\..\lib\uap10.0\x64\Telerik.UI.Xaml.Map.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>

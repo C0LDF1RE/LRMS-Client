@@ -61,7 +61,6 @@ C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\AppShell.xbf
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\ExtendedSplash.xbf
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\LoginPage.xbf
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\XamlSaveStateFile.xml
-C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\LRMS.UWP.csproj.CoreCompileInputs.cache
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\LRMS.UWP.csproj.CopyComplete
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\LRMS.UWP.exe
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\LRMS.UWP.pdb
@@ -165,3 +164,18 @@ C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\Microsoft.Xaml.Interaction
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636340141040000000.json
 C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\.winmd_cache\$Robmikh.CompositionSurfaceFactory.winmd_636421080520000000.json
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\System.Text.Encodings.Web.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\System.Text.Json.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\FxResources.System.Text.Json.SR.resw
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\resources.en-us.resfiles
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\resources.en-us.resfiles.intermediate
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\LRMS.UWP.DataAccessLib.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\bin\x64\Debug\LRMS.UWP.DataAccessLib.pdb

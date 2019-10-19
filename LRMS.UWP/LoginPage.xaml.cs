@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.Toolkit.Uwp.UI.Controls;
 using Windows.UI.Xaml.Media.Imaging;
+using LRMS.UWP.Infrastructure;
+using Windows.Web.Http;
 
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
@@ -37,12 +39,19 @@ namespace LRMS.UWP
 
         }
 
-        private void Ellipse_Tapped(object sender, TappedRoutedEventArgs e)
+        private async void Ellipse_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            string response = null;
             Debug.WriteLine("Oh");
+            Request request = new Request();
             //LoadingControl.IsLoading = true;
             LoginProgressRing.IsActive = true;
-            this.Frame.Navigate(typeof(AppShell));
+            response = await request.SendJsonRequest("Post", "http://localhost:5100/api/device/post", "");
+            if (response != null)
+            {
+                Debug.WriteLine(response);
+                this.Frame.Navigate(typeof(AppShell));
+            }
         }
 
         private void Page_Loading(FrameworkElement sender, object args)

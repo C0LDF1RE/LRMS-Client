@@ -1,0 +1,8 @@
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\bin\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.deps.json
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\bin\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\bin\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.pdb
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\obj\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.csprojAssemblyReference.cache
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\obj\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.AssemblyInfoInputs.cache
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\obj\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.AssemblyInfo.cs
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\obj\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.dll
+C:\Users\COLDFIRE\source\repos\LRMS.UWP\LRMS.UWP.DataAccessLib\obj\Debug\netstandard2.0\LRMS.UWP.DataAccessLib.pdb

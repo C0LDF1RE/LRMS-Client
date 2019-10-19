@@ -157,20 +157,20 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>Telerik.UI.Drawing.dll</Path>
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShapeStyle" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextBlock" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DMultiPolygon" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DBrush" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DLine" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DRectangle" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShape" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShapeContainer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DPolyline" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DGeometryShape" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextStyle" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DSolidColorBrush" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DResource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DBrush" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DCanvas" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShapeStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DGeometryShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DPolyline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextBlock" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DTextStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Telerik.UI.Drawing.D2DSolidColorBrush" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -178,8 +178,8 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.18362.356 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29215.179" />
+    <build:Item Name="OperatingSystem" Version="10.0.18362.418 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29311.281" />
     <build:Item Name="ProjectGUID" Value="{CE4718BF-57C4-4AB8-8B6F-38C29407466F}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />

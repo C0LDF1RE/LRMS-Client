@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "uap10.0.18362": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\LRMS.UWP.DataAccessLib.csproj": {
+                "projectPath": "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\LRMS.UWP.DataAccessLib.csproj"
+              }
+            }
           }
         }
       },
@@ -41,6 +45,10 @@
               "target": "Package",
               "version": "[1.1.1, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.9, )"
@@ -48,6 +56,14 @@
             "Microsoft.Toolkit.Uwp.UI.Controls": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "SQLitePCLRaw.bundle_winsqlite3": {
+              "target": "Package",
+              "version": "[1.1.8, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             },
             "Telerik.UI.for.UniversalWindowsPlatform": {
               "target": "Package",
@@ -82,6 +98,68 @@
         },
         "win10-x86-aot": {
           "#import": []
+        }
+      }
+    },
+    "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\LRMS.UWP.DataAccessLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\LRMS.UWP.DataAccessLib.csproj",
+        "projectName": "LRMS.UWP.DataAccessLib",
+        "projectPath": "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\LRMS.UWP.DataAccessLib.csproj",
+        "packagesPath": "C:\\Users\\COLDFIRE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COLDFIRE\\source\\repos\\LRMS.UWP\\LRMS.UWP.DataAccessLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\COLDFIRE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
